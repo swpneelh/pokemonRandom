@@ -5,6 +5,6 @@ function displayBG(){
 
 let randomBg = bg[Math.floor(Math.random()*bg.length)];
 
-document.getElementById("bg").style.backgroundImage = randomBg;
+document.getElementById("div").style.background = url("http://i.imgur.com/VQZQbew.png")
 }
 displayBG()
